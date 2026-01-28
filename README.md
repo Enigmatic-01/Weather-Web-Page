@@ -44,6 +44,9 @@ A simple weather application built with **vanilla JavaScript** that fetches real
 3. Replace the placeholder in your JavaScript:
 
 ```js
+const aip = "YOUR_API_KEY_HERE";
+const url = "https://api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}";
+
 
 
 
